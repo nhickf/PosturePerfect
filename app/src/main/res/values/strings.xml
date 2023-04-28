@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PosturePerfect</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mode">Mode</string>
+    <string name="articles">Articles</string>
+    <string name="overview">Overview</string>
+    <string name="profile">Profile</string>
+    <string name="mode_fragment">Mode Fragment</string>
+    <string name="articles_fragment">Articles Fragment</string>
+    <string name="overview_fragment">Overview Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="home">Home</string>
+    <string name="notifications_fragment">Notifications Fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
+    <string name="calibration_modes">Calibration Modes</string>
+    <string name="resting_mode">Resting Mode</string>
+    <string name="working_mode">Working Mode</string>
+    <string name="faqs">FAQs</string>
+    <string name="bad_posture_in_working_mode_detected">Bad Posture in Working Mode Detected</string>
+    <string name="bad_posture_in_resting_mode_detected">Bad Posture in Resting Mode Detected</string>
+    <string name="switch_text_1">Working Mode</string>
+    <string name="switch_text_2">Resting Mode</string>
+    <string name="faq">FAQ</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="add">+</string>
+</resources>

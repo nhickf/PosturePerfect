@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--ImageButton
+            android:id="@+id/notification_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@null"
+            android:src="@drawable/home_notification" /-->
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/settings_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@null"
+            android:src="@drawable/home_settings" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bendy_guy"
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/countLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/badposturecount_background" />
+
+        <TextView
+            android:id="@+id/bad_posture_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="100sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ble_scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countLayout"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:text="Connect/Calibrate"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/black"/>
+
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ble_scan_button"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bad_posture_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="25sp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Bad While Work" />
+
+        <Button
+            android:id="@+id/bad_posture_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="25sp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Bad While Rest" />
+    </LinearLayout-->
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/modeFragment"
+        android:title="@string/mode"
+        android:icon="@drawable/bnav_mode"/>
+    <item
+        android:id="@+id/articlesFragment"
+        android:title="@string/articles"
+        android:icon="@drawable/bnav_articles"/>
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/bnav_home"/>
+    <item
+        android:id="@+id/overViewFragment"
+        android:title="@string/overview"
+        android:icon="@drawable/bnav_overview"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/bnav_profile"/>
+
+</menu>

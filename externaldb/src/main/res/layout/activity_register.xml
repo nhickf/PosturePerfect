@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".presentation.RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstName_et"
+        android:hint="First Name"
+        android:layout_marginBottom="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/middleName_et"
+        android:hint="Middle Name"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastName_et"
+        android:hint="Last Name"
+        android:layout_marginTop="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#4A148C"
+        android:backgroundTint="#03A9F4"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

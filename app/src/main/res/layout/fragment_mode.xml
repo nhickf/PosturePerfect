@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context=".ModeFragment">
+
+    <TextView
+        android:id="@+id/modeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calibration_modes"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/switch_text_1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_weight="1" />
+
+    <Switch
+        android:id="@+id/mode_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:rotation="90"
+        android:scaleX="5"
+        android:scaleY="5"
+        android:trackTint="@color/white"
+        android:thumbTint="@color/accent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/switch_text_2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/faq_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/faqs"
+        android:textColor="#808080"
+        android:layout_weight="1" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

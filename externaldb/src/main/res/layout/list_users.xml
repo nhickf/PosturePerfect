@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp"
+    android:gravity="center"
+    tools:ignore="ExtraText"><![CDATA[]]>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/userfemale" />
+
+    <TextView
+        android:id="@+id/firstName_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caitlyn"
+        android:textSize="15sp"
+        android:layout_marginStart="8dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+</LinearLayout>

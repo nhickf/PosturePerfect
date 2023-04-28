@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="35sp"
+    android:orientation="horizontal"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/itemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhick"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="9dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/itemView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ad"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/itemView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flores"
+        android:layout_marginStart="5sp"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+</LinearLayout>
